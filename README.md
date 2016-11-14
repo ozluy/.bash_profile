@@ -19,6 +19,7 @@ alias ga='git add'
 alias gaa='git add *'
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
+alias gm='git merge' #requires a brach name
 alias gr='git reset HEAD'
 alias where='echo type "pwd" next time && pwd'
 ```
