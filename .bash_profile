@@ -1,15 +1,16 @@
-
 # Color LS
 colorflag="-G"
 alias ls="command ls -a ${colorflag}"
 
-# history
+#history
 alias r='reset'
 alias clean='reset'
 
-# git
+# Git
+# You must install Git first
 alias gs='git status'
 alias ga='git add'
+alias gm='git merge'
 alias gaa='git add *'
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
