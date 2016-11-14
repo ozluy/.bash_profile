@@ -1,14 +1,13 @@
-#Bash profile
-#### Color LS
+
+# Color LS
 colorflag="-G"
 alias ls="command ls -a ${colorflag}"
 
-####history
+# history
 alias r='reset'
 alias clean='reset'
 
-#### Git
-#### You must install Git first
+# git
 alias gs='git status'
 alias ga='git add'
 alias gaa='git add *'
