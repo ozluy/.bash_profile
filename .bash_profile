@@ -1,18 +1,18 @@
-# Color LS
-colorflag="-G"
-alias ls="command ls -a ${colorflag}"
-
 #history
-alias r='reset'
-alias clean='reset'
+alias terminal-reset='reset'
+alias terminal-clean='history -c'
 
 # Git
 # You must install Git first
-alias gs='git status'
-alias ga='git add'
-alias gm='git merge'
-alias gaa='git add *'
-alias gc='git commit -m' # requires you to type a commit message
-alias gp='git push'
-alias gr='git reset HEAD'
 alias where='echo type "pwd" next time && pwd'
+alias simple-server='python -m SimpleHTTPServer'
+alias dr-dev='dotnet run ASPNETCORE_ENVIRONMENT=Development'
+alias dr-prod='dotnet run ASPNETCORE_ENVIRONMENT=Production'
+
+#.Net Core
+alias ds='dotnet restore'
+alias dr='dotnet run'
+
+
+# Setting PATH for Python 3.5
+# The original version is saved in .bash_profile.pysave
