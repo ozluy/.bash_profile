@@ -6,13 +6,9 @@ alias terminal-clean='history -c'
 # You must install Git first
 alias where='echo type "pwd" next time && pwd'
 alias simple-server='python -m SimpleHTTPServer'
-alias dr-dev='dotnet run ASPNETCORE_ENVIRONMENT=Development'
-alias dr-prod='dotnet run ASPNETCORE_ENVIRONMENT=Production'
+alias dr-dev='export ASPNETCORE_ENVIRONMENT=Development && dotnet run'
+alias dr-prod='export ASPNETCORE_ENVIRONMENT=Production && dotnet run'
 
 #.Net Core
 alias ds='dotnet restore'
 alias dr='dotnet run'
-
-
-# Setting PATH for Python 3.5
-# The original version is saved in .bash_profile.pysave
